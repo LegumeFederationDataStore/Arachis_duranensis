@@ -1,0 +1,29 @@
+March 15, 2014
+
+Files Aradu.A01 - Aradu.A10 and Aradu.A_unplaced in this directory
+are the pseudomolecule assemblies, version 1 for 
+Arachis duranensis. 
+
+By using these files, you or a collaborator have accepted the
+Usage Agreement (usage_agreement.txt) accompanying these files.
+
+Note added August 24, 2014: the following saffolds were found to be present
+in both the pseudomolecule assemblies and in the files of unplaced scaffolds
+(Aradu.A_unplaced and Aradu.A_unplaced_RM):
+    Adur78_2
+    Adur188_2
+    Adur356_2
+    Adur104_4
+    Adur18_2
+    Adur227_2
+    Adur147_2
+    Adur1_2
+    Adur160_2
+    Adur66_3
+    Adur101_2
+These redundant scaffolds are removed from Aradu.A_unplaced and Aradu.A_unplaced_RM 
+in the 2014-08-24 version of these two files. 
+
+Additional scaffolds were removed if they contained no predicted genes and
+either contained fewer than 2000 non-N bases or contained more than 50% Ns
+

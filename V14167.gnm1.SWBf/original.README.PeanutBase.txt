@@ -1,0 +1,74 @@
+(NOTE: Read through to the end of this file. Recent changes are noted at the end of the file.)
+Steven Cannon
+
+---------
+Initial notes:
+March 15, 2014
+
+Files in this directory include the scaffold assemblies for Arachis duranensis
+(Adur1.split5.fa.gz), and the pseudomolecule assemblies, version 1.0 for the
+genome. The intact pseudomolecules plus the remaining scaffolds are in
+the fasta file Aradu_v1.0.20140819.fa.gz .
+
+By using these files, you or a collaborator have accepted the Usage Agreement
+(usage_agreement.txt) accompanying these files.
+
+Directory legend:
+  RM - RepeatMask-ed, using Arachis repeats provided by David Bertioli et al.
+  
+  by_scaff - The pseudomolecule sequences are in multifasta format, in scaffold
+  chunks. Definition lines give scaffold name and orientation.
+  
+  Not marked "by_scaff" - these pseudomolecule sequences are "entire", with a
+  single definition line at the top, e.g. >Aradu.A01.
+
+In the "entire" versions (not marked "by_scaff"), the scaffold sequences have
+been concatenated (after ordering and orienting), separated by spacer sequences
+of 10,000 "n"s.
+
+NOTE added May 20, 2014: the scaffold file Adur1.split4.fa has been replaced with
+an updated file Adur1.split5.fa to reflect the scaffolds used in the 1.0 assemblies.
+The earlier file contained some "split" scaffolds with different split locations
+than in the final assembly.
+
+---------
+NOTE added August 24, 2014: the following saffolds were found to be present
+in both the pseudomolecule assemblies and in the files of unplaced scaffolds
+(Aradu.A_unplaced and Aradu.A_unplaced_RM):
+    Adur78_2
+    Adur188_2
+    Adur356_2
+    Adur104_4
+    Adur18_2
+    Adur227_2
+    Adur147_2
+    Adur1_2
+    Adur160_2
+    Adur66_3
+    Adur101_2
+These redundant scaffolds are removed from Aradu.A_unplaced and Aradu.A_unplaced_RM 
+in the 2014-08-20 version of these two files.
+
+An additional set of 182 very poor-quality scffolds were removed from the 2014-08-24 version.
+These scaffolds had no predicted gene models, and < 2000 nt of [ATCG] or > 80% Ns.
+
+File Aradu_v1.0_20140908.fa contains only the scaffolds used in the main assembly (i.e.
+pseudomolecules and unplaced scaffolds).
+
+
+---------
+NOTE added July 13, 2015: 
+The following "split" saffolds were found to be redundant in the 
+"all scaffolds" file, Adur1.split5.fa. These were not used in the pseudomolecule assembly,
+and so have been removed from a patched "all scaffolds" file, Adur1.split6.fa : 
+  Adur1_3 Adur101_3 Adur104_6 Adur119_4 Adur12_4 Adur120_3 Adur127_3 Adur1291_3
+  Adur133_3 Adur14_4 Adur147_3 Adur152_3 Adur153_3 Adur159_4 Adur16_4 Adur16_5
+  Adur160_4 Adur172_3 Adur176_4 Adur176_5 Adur18_5 Adur185_3 Adur188_3 Adur195_3
+  Adur2_4 Adur21_4 Adur21_5 Adur218_4 Adur22_3 Adur22_4 Adur227_3 Adur241_5
+  Adur243_3 Adur250_3 Adur26_5 Adur28_3 Adur32_3 Adur329_3 Adur34_3 Adur35_3
+  Adur352_3 Adur356_3 Adur364_3 Adur367_3 Adur378_3 Adur39_4 Adur39_5 Adur40_4
+  Adur403_3 Adur421_3 Adur44_3 Adur47_4 Adur47_5 Adur498_3 Adur52_4 Adur546_3
+  Adur548_3 Adur551_3 Adur584_3 Adur628_3 Adur65_3 Adur66_6 Adur664_3 Adur68_3
+  Adur70_3 Adur71_3 Adur712_3 Adur78_3 Adur8_3 Adur810_3 Adur824_3 Adur830_3
+  Adur868_3 Adur877_3 Adur931_3 Adur959_3 Adur98_3
+
