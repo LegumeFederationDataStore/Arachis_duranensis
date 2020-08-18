@@ -1,3 +1,5 @@
+%YAML 1.2
+---
 identifier: cxSM
 
 provenance: The files in this directory originated from http://peanutbase.org. There is also a corresponding genome assembly at GenBank - but that assembly is organized as scaffold sequences rather than as pseudomolecule assemblies, so for the purposes of loading genome browsers, gene families, etc., we instead use the pseudomolecule assemblies and corresponding pseudomolecule-derived annotation files from PeanutBase. 
